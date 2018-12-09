@@ -1,0 +1,22 @@
+{
+  "exp_name": "drawit-baseline3",
+  "exp_description": "baseline model using text to image synthesis architecture with DCGAN",
+  "num_iter": 100000,
+  "save_iter": 5000,
+  "sample_iter": 500,
+  "batch_size": 64,
+  "z_dim": 100,
+  "g_dim": 64,
+  "d_dim": 64,
+  "g_layers": 3,
+  "d_layers": 3,
+  "strides": 2,
+  "kernel_size": 5,
+  "beta1": 0.5,
+  "beta2": 0.999,
+  "g_learning_rate": 0.0002,
+  "d_learning_rate": 0.0002,
+  "image_size": 784,
+  "num_classes": 10,
+  "max_to_keep": 5
+}
